@@ -29,4 +29,14 @@ create table PERSONA(
     CONSTRAINT CODPER_PK PRIMARY KEY(CODPER)
 );
 
+/* Verificar la estructura de la tabla */
 SHOW COLUMNS IN PERSONA;
+describe PERSONA;
+
+CREATE TABLE UBIGEO(
+    CODUBI char(6),
+    DISTUBI varchar(100),
+    PROVUBI varchar(100),
+    DPTOUBI varchar(100),
+    CONSTRAINT CODUBI_PK PRIMARY KEY(CODUBI)
+);
